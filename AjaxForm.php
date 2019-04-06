@@ -80,8 +80,7 @@ class AjaxForm
 
     public function mail_smtp()
     {
-
-        $mailSMTP = new SendMailSmtpClass(
+         $mailSMTP = new SendMailSmtpClass(
             $this->smtp_options['smtp_username'],
             $this->smtp_options['smtp_password'],
             $this->smtp_options['smtp_host'],
