@@ -53,7 +53,7 @@ var AjaxForm =
                         if (result.success) {
                             alert_area.removeClass('no-message').addClass('success');
 
-                            form.find('input, texarea').each(function () {
+                            form.find('input, textarea').each(function () {
 
 
                                 if ('hidden' !== $(this).attr('type') && 'submit' !== $(this).attr('type')) {
